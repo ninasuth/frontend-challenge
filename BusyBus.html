@@ -1,130 +1,140 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
 
-<header>
-  <img src="images/status-bar.png" width=100%>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-  <h2 class = "stop-name">Washington & State</h2>
+<body>
+
+  <header>
+    <img src="images/status-bar.png" width=100%>
+    <ul>
+      <li>
+        <div class="icons"><img src="images/back.png" width=50%></div>
+      </li>
+      <li>
+        <h1 class="stop-name">Washington & State</h1>
+      </li>
+      <li>
+        <div class="icons"><img src="images/refresh.png" width=50%></div>
+      </li>
+    </ul>
+
+  </header>
+
+  <img src="images/map.png" width=100%>
 
 
-</header>
-
-
-<h3>Routes: 60, 124, 151, J14, 124, 6x</h3>
-
-<img src="images/map.png" width=100%>
 
 
 
+  <section class="container">
+
+    <h3 class="allroutes">Routes: 60, 124, 151, J14, 124, 6x</h3>
+
+    <section class="direction"><h2>Eastbound</h2></section>
 
 
-<section class = "container">
+    <section class="schedule">
+      <ul>
+        <h2 class="route">60</h2>
+        <div class="destination">
+          <h4>To Randolph/Harbor Drive</h4>
+        </div>
+        <h4 class="time">Every 20 min</h4>
+        </li>
+        <li>
+          <h2 class="route">124</h2>
+          <div class="destination">
+            <h4>Navy Pier</h4>
+          </div>
+          <h4 class="time">Every 10 min</h4></li></section>
 
-    <div class = "route">
-      <h1>Bus</h1>
-    </div>
-    <div class = "destination">
-      <h1>Destination</h1>
-    </div>
-    <div class = "time">
-      <h1>Timings</h1>
-</div>
-<section class = "schedule">
+<section class="direction"><h2>Eastbound</h2></section>
+  <section class="schedule">
 <ul>
+        <li>
+          <h2 class="route">151</h2>
+          <div class="destination">
+            <h4>Devon/Clark</h4>
+          </div>
+          <h4 class="time">Every 16 min</h4>
+        </li></ul></section>
+
+        <section class="direction"><h2>Southbound</h2></section>
+          <section class="schedule">
+        <ul>
+        <li>
+          <h2 class="route">J14</h2>
+          <div class="destination">
+            <h4>103rd/Stony Island</h4>
+          </div>
+          <h4 class="time">Every 15 min</h4>
+        </li>
+        <li>
+          <h2 class="route">124</h2>
+          <div class="destination">
+            <h4>Navy Pier</h4>
+          </div>
+          <h4 class="time">Every 10 min</h4>
+        </li></ul></section>
+
+          <section class="direction"><h2>Reroute</h2></section>
+            <section class="schedule">
+          <ul>
+          <li>
+          <h2 class="route">6x</h2>
+          <div class="destination">
+            <h4>Jackson Park Express</h4>
+          </div>
+          <h4 class="time">N/A</h4>
+  </li></ul></section>
+
+  <section class="direction"><h2>Out of Service</h2></section>
+    <section class="schedule">
+  <ul>
   <li>
-    <h2 class = "direction">Eastbound</h2>
-  </li>
-    <h2 class = "route">60</h2>
-    <div class = "destination">
-      <h4>To Randolph/Harbor Drive</h4>
-    </div>
-      <h4 class ="time">Every 20 min</h4>
-  </li>
-  <li>
-    <h2 class = "route">124</h2>
-    <div class = "destination">
-      <h4>Navy Pier</h4>
-    </div>
-      <h4 class ="time">Every 10 min</h4>
-  </li>
-  <li>
-    <h2 class = "direction">Northbound</h2>
-  </li>
-  <li>
-    <h2 class = "route">151</h2>
-    <div class = "destination">
-      <h4>Devon/Clark</h4>
-    </div>
-      <h4 class ="time">Every 16 min</h4>
-  </li>
-  <li>
-    <h2 class = "direction">Southbound</h2>
-  </li>
-  <li>
-    <h2 class = "route">J14</h2>
-    <div class = "destination">
-      <h4>103rd/Stony Island</h4>
-    </div>
-      <h4 class ="time">Every 15 min</h4>
-  </li>
-  <li>
-    <h2 class = "route">124</h2>
-    <div class = "destination">
-      <h4>Navy Pier</h4>
-    </div>
-      <h4 class ="time">Every 10 min</h4>
-  </li>
-  <li>
-    <h2 class = "direction">Reroute</h2>
-  </li>
-  <li>
-    <h2 class = "route">6x</h2>
-    <div class = "destination">
-      <h4>Jackson Park Express</h4>
-    </div>
-      <h4 class ="time">N/A</h4>
-  </li>
-  <li>
-    <h2 class = "direction">Out of service</h2>
-  </li>
-  <li>
-    <h2 class = "route">4</h2>
-    <div class = "destination">
-      <h4>Cottage Grove</h4>
-    </div>
-      <h4 class ="time">Resumes 12:10 AM</h4>
-  </li>
-  <li>
-    <h2 class = "route">20</h2>
-    <div class = "destination">
-      <h4>Madison</h4>
-    </div>
-      <h4 class ="time">Resumes 12:10 AM</h4>
-  </li>
-  <li>
-    <h2 class = "route">157</h2>
-    <div class = "destination">
-      <h4>Streeterville/Taylor</h4>
-    </div>
-      <h4 class ="time">Resumes 06:00 AM</h4>
-  </li>
-</ul>
+          <h2 class="route">4</h2>
+          <div class="destination">
+            <h4>Cottage Grove</h4>
+          </div>
+          <h4 class="time">Resumes 12:10 AM</h4>
+        </li>
+        <li>
+          <h2 class="route">20</h2>
+          <div class="destination">
+            <h4>Madison</h4>
+          </div>
+          <h4 class="time">Resumes 12:10 AM</h4>
+        </li>
+        <li>
+          <h2 class="route">157</h2>
+          <div class="destination">
+            <h4>Streeterville/Taylor</h4>
+          </div>
+          <h4 class="time">Resumes 06:00 AM</h4>
+        </li>
+      </ul>
+    </section>
+  </section>
+
+  <section class = "bottom-header">
+    <ul>
+      <li>
+        <div class="bottom-icon"><img src="images/map-icon.png" width=55px></div>
+        <div class="bottom-icon"><img src="images/bookmarks-icon.png" width=55px></div>
+        <div class="bottom-icon"><img src="images/recent-icon.png" width=55px></div>
+        <div class="bottom-icon"><img src="images/settings-icon.png" width=55px></div>
+      </li>
+    </ul>
+  </section>
 
 
+</body>
 
-
-
-
-
-</section>
-</section>
-  </body>
 </html>
