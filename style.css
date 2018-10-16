@@ -11,8 +11,7 @@ header {
   margin: 0 auto;
   width: 100%;
   background-color: #F9F9F9;
-  border-bottom-color: black;
-  border-bottom: 20px;
+  border-bottom: 1px solid #efefef;
 }
 
 .icons {
@@ -43,6 +42,7 @@ li {
   clear: both;
   padding-top: 5px;
   padding-bottom: 5px;
+  /* border-bottom: 1px solid #efefef; */
 }
 
 .allroutes {
@@ -105,9 +105,17 @@ h3 {
   color: #606060;
 }
 
+h4 {
+  font-size: 110%;
+}
+
 h5 {
   font-size: 120%;
   line-height: 200%;
+}
+
+h6 {
+  font-size: 90%;
 }
 
 .bottom-header {
