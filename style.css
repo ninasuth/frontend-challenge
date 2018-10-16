@@ -10,7 +10,9 @@ body {
 header {
   margin: 0 auto;
   width: 100%;
-  background-color: #F8F8F8;
+  background-color: #F9F9F9;
+  border-bottom-color: black;
+  border-bottom: 20px;
 }
 
 .icons {
@@ -34,7 +36,7 @@ header {
 .container {
   margin: 0 auto;
   width: 100%;
-  background-color: #E0E0E0;
+  background-color: #efefef;
 }
 
 li {
@@ -67,16 +69,15 @@ li {
 }
 
 .time {
-  width: 20%;
+  width: 30%;
   margin-top: 3%;
-  padding-left: 3%;
-  padding-right: 5%;
+  /* padding-left: 3%; */
+  /* padding-right: %; */
   display: inline-block;
 }
 
 .direction {
   margin-top: 3%;
-  padding-left: 3%;
   text-transform: uppercase;
 }
 
@@ -92,24 +93,31 @@ h1 {
 }
 
 h2 {
-  font-size: 100%;
+  font-size: 120%;
   text-align: left;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 120%;
+  font-size: 90%;
   line-height: 180%;
   padding: 0 16px;
+  color: #606060;
 }
 
-bottom-header {
+h5 {
+  font-size: 120%;
+  line-height: 200%;
+}
+
+.bottom-header {
   margin: 0 auto;
   width: 100%;
   height: 60px;
-  background-color: #F8F8F8;
+  background-color: #F9F9F9;
 }
 
-bottom-icons {
+.bottom-icons {
   width: 15%;
   margin-top: 3%;
   padding-left: 3%;
