@@ -84,7 +84,7 @@ li {
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 130%;
   font-weight: bold;
   text-align: center;
 }
@@ -120,6 +120,8 @@ h6 {
   width: 100%;
   height: 60px;
   background-color: #f9f9f9;
+  position: fixed;
+  bottom: 0;
 }
 
 .bottom-icons {
