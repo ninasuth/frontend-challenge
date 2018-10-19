@@ -12,15 +12,16 @@ header {
   width: 100%;
   background-color: #f9f9f9;
   border-bottom: 1px solid #efefef;
+  text-align: center;
 }
 
 .icons {
-  width: 15%;
+  width: 10%;
   display: inline-block;
 }
 
 .stop-name {
-  width: 50%;
+  width: 75%;
   display: inline-block;
 }
 
@@ -122,6 +123,7 @@ h6 {
   background-color: #f9f9f9;
   position: fixed;
   bottom: 0;
+  right: 0;
 }
 
 .bottom-icons {
