@@ -33,7 +33,13 @@ header {
   display: inline-block;
 }
 
-.container {
+.map {
+  height: 282px;
+}
+
+.buslist {
+  overflow: scroll;
+  height: 288px;
   margin: 0 auto;
   width: 100%;
   background-color: #efefef;
@@ -58,6 +64,9 @@ li {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
+}
+
+.row {
   border-top: 1px solid #efefef;
 }
 
@@ -116,12 +125,12 @@ h6 {
   font-size: 90%;
 }
 
-.bottom-header {
+footer {
   margin: 0 auto;
   width: 100%;
   height: 60px;
   background-color: #f9f9f9;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   right: 0;
 }
