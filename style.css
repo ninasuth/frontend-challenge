@@ -43,7 +43,7 @@ header {
   margin: 0 auto;
   width: 100%;
   background-color: #efefef;
-  border-bottom: 1px solid #efefef;
+  /* border-bottom: 1px solid #efefef; */
 }
 
 li {
@@ -100,9 +100,10 @@ h1 {
 }
 
 h2 {
-  font-size: 100%;
+  font-size: 160%;
   text-align: left;
-  font-weight: bold;
+  font-weight: bolder;
+  vertical-align: middle;
 }
 
 h3 {
@@ -114,6 +115,7 @@ h3 {
 
 h4 {
   font-size: 100%;
+  font-weight: bold;
 }
 
 h5 {
@@ -122,8 +124,10 @@ h5 {
 }
 
 h6 {
-  font-size: 90%;
+  font-size: 85%;
+  line-height: 70%;
 }
+
 
 footer {
   margin: 0 auto;
